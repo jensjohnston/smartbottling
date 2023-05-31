@@ -12,21 +12,21 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Sustainability Defined',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Squash plastic waste, be the change.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Efficiency, Redefined',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Curb expenses, boost operations",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Unrivaled taste',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "Indulge in Swedish purity, in every drop",
     image: screenshotVatReturns,
   },
   {
@@ -59,7 +59,7 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
+      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32 sm:px-6 lg:px-8"
     >
       <Image
         className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
@@ -71,12 +71,11 @@ export function PrimaryFeatures() {
       />
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl font-bold">
+            Meet SmartBottlingplant™, A Leap Ahead
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          <p className="mt-6 text-lg tracking-tight text-blue-100 font-medium">
+            Dive into a new dimension of water - The Bluewater revolution.
           </p>
         </div>
         <Tab.Group
@@ -92,7 +91,7 @@ export function PrimaryFeatures() {
                     <div
                       key={feature.title}
                       className={clsx(
-                        'group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6',
+                        'group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6 font-medium',
                         selectedIndex === featureIndex
                           ? 'bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10'
                           : 'hover:bg-white/10 lg:hover:bg-white/5'
@@ -101,19 +100,19 @@ export function PrimaryFeatures() {
                       <h3>
                         <Tab
                           className={clsx(
-                            'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
+                            'font-bold text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
                               ? 'text-blue-600 lg:text-white'
                               : 'text-blue-100 hover:text-white lg:text-white'
                           )}
                         >
-                          <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
+                          <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none font-bold" />
                           {feature.title}
                         </Tab>
                       </h3>
                       <p
                         className={clsx(
-                          'mt-2 hidden text-sm lg:block',
+                          'mt-2 hidden text-sm lg:block font-medium',
                           selectedIndex === featureIndex
                             ? 'text-white'
                             : 'text-blue-100 group-hover:text-white'

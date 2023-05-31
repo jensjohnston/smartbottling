@@ -12,16 +12,16 @@ import heroImage from '@/images/hero-image.jpg';
 
 export function Hero() {
   return (
-    <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-slate-900 sm:text-7xl">
+    <Container className="pb-16 lg:pb-0 pt-20 text-center lg:pt-32">
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-slate-900 sm:text-7xl break-words">
       Introducing SmartBottlingplant™
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700 font-medium">
         Most bookkeeping software is accurate, but hard to use. We make the
         opposite trade-off, and hope you don’t get audited.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get 6 months free</Button>
+        <Button href="/register">Let's talk</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
@@ -36,42 +36,7 @@ export function Hero() {
         </Button>
       </div>
       <div>
-        <Image src={heroImage} className="w-full" />
-      </div>
-      <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
-        </p>
-        <ul
-          role="list"
-          className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
-        >
-          {[
-            [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
-            ],
-          ].map((group, groupIndex) => (
-            <li key={groupIndex}>
-              <ul
-                role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
-              >
-                {group.map((company) => (
-                  <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
+        <Image src={heroImage} className="w-full mt-px" />
       </div>
     </Container>
   )
