@@ -24,8 +24,8 @@ module.exports = {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        display: ['Lexend', ...defaultTheme.fontFamily.sans],
+        'sans': ['museo-sans', ...defaultTheme.fontFamily.sans],
+        'sans-italic': ['museo-sans-italic', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         '2xl': '40rem',
