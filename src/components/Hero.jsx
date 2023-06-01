@@ -36,7 +36,7 @@ export function Hero() {
         </Button>
       </div>
       <div>
-        <Image src={heroImage} className="w-full mt-px" />
+        <Image src={heroImage} className="w-full mt-16" />
       </div>
     </Container>
   )
