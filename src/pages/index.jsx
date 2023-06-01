@@ -7,6 +7,7 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { ProductDetails } from '@/components/ProductDetails'
+import { SustainabilityDetails } from '@/components/SustainabilityDetails'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>Bluewater - A new era of water</title>
         <meta
           name="description"
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
@@ -25,6 +26,7 @@ export default function Home() {
       <main>
         <Hero />
         <ProductDetails />
+        <SustainabilityDetails />
         <PrimaryFeatures />
         <SecondaryFeatures />
         <CallToAction />
