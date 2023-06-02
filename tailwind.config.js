@@ -61,6 +61,8 @@ module.exports = {
         '256': '64rem',
         '288': '72rem',
         '320': '80rem',
+        '280': '280px',
+        '300': '300px',
         // ... add more if needed
       },
       height: {
@@ -71,6 +73,7 @@ module.exports = {
         '256': '64rem',
         '288': '72rem',
         '320': '80rem',
+        '600': '600px',
         // ... add more if needed
       }
     },

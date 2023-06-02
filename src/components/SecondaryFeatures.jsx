@@ -8,6 +8,9 @@ import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
+import { Dollar } from '@/components/dollar'
+import { PlayIcon } from '@/components/PlayIcon'
+
 const features = [
   {
     name: 'Reporting',
@@ -211,20 +214,45 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32 sm:px-6 lg:px-8"
+      className="pb-14 pt-20 sm:pb-20 sm:pt-0 lg:pb-32 sm:px-6 lg:px-8"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
-          </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
-          </p>
+        <h2 className="text-left text-8xl font-bold break-words text-center">Efficiency <br /> elevated</h2>
+        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 text-center">Unleash the power of simplicity with Bluewater's SmartBottlingplant™. Experience savings, streamlined operations and effortless automation, all engineered for your convenience.</p>
         </div>
-        <FeaturesMobile />
-        <FeaturesDesktop />
+        <div className="grid grid-cols-2 max-w-6xl mx-auto mt-20 gap-6">
+        <div className="col-span-1 bg-gray-50 p-10 rounded-4xl">
+          <div className="h-full flex flex-col items-center">
+            <div className="grid mt-20">
+              <h3 className="font-bold text-gray-900 text-6xl">Lower Costs, Higher Profits</h3>
+            </div>
+            <div className="relative w-full flex-grow flex items-center">
+            <Dollar className="h-full w-full mt-20" />
+            </div>
+          </div>
+        </div>
+        <div className="col-span-1 bg-gray-50 p-10 rounded-4xl">
+          <div className="h-full flex flex-col items-center">
+            <div className="grid mt-20">
+              <h3 className="font-bold text-gray-900 text-6xl">Easy To Use, Hassle-Free</h3>
+            </div>
+            <div className="relative w-full flex-grow flex items-center">
+            <PlayIcon className="h-full w-full mt-20 h-72" />
+            </div>
+          </div>
+        </div>
+        <div className="col-span-2 bg-gray-50 p-10 rounded-4xl">
+          <div className="h-full flex flex-col items-center">
+            <div className="grid mt-20">
+              <h3 className="font-bold text-gray-900 text-6xl md:text-center">Consistent, Trustworthy Performance</h3>
+            </div>
+            <div className="relative w-full flex-grow flex items-center">
+            <PlayIcon className="h-full w-full mt-20 h-72" />
+            </div>
+          </div>
+        </div>
+        </div>
       </Container>
     </section>
   )

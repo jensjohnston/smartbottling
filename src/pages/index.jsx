@@ -27,7 +27,6 @@ export default function Home() {
         <Hero />
         <ProductDetails />
         <SustainabilityDetails />
-        <PrimaryFeatures />
         <SecondaryFeatures />
         <CallToAction />
         <Testimonials />
