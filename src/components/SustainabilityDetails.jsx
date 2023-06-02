@@ -39,7 +39,7 @@ export function SustainabilityDetails() {
                     <Recycle className="h-auto" />
                     </div>
                     <div className="absolute -right-1/4 sm:-right-2/4 transform top-1/2 -translate-y-1/2 -mt-96">
-                        <Image src={mineral} className="w-64" />
+                        <Image src={mineral} className="w-120" />
                     </div>
                     <div className="absolute transform top-1/2 -translate-y-1/2 -left-12/20 waterbottle">
                         <Image src={deliciousWater} className="w-72 rotate-45 opacity-90" />
