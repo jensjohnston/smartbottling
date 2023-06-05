@@ -13,7 +13,7 @@ import { Recycle } from '@/components/Recycle'
 
 export function SustainabilityDetails() {
   const { scrollYProgress } = useScroll();
-  const rotate = useTransform(scrollYProgress, [0, 1], [0, 900]);
+  const rotate = useTransform(scrollYProgress, [0, 1], [0, 360]);
 
   return (
     <section className="py-20 lg:pb-96 pt-0 lg:pt-20">
@@ -24,9 +24,9 @@ export function SustainabilityDetails() {
                     <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center z-20 relative">Stand at the vanguard of the <span className="text-gray-900">green revolution</span>. With SmartBottlingplant™, you&apos;re not just reducing plastic waste. You&apos;re actively shaping a <span className="text-gray-900">sustainable future</span>, embodying the ethos of <span className="text-gray-900">eco-luxury</span>.</p>
                 </div>
                 <div className="max-w-screen-md pt-8 lg:pt-20 relative">
-                    <div className="flex px-4 max-w-screen-md mx-auto">
+                    <div className="flex px-4 max-w-screen-md mx-auto justify-center">
                       <motion.div
-                        className="h-auto w-full max-w-screen-md overflow-hidden"
+                        className="h-auto lg:w-full max-w-screen-md overflow-hidden w-13/20"
                         style={{ rotate }}
                         transition={{ duration: 0.5 }}
                       >
