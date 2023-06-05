@@ -1,3 +1,6 @@
+// Import next-videos
+const withVideos = require('next-videos');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -6,4 +9,5 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+// Wrap your existing config with withVideos()
+module.exports = withVideos(nextConfig);
