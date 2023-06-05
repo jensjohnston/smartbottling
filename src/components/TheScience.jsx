@@ -219,7 +219,7 @@ export function TheScience() {
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
-        <h2 className="text-8xl font-bold break-words text-center text-gray-950">Superior Hydration</h2>
+        <h2 className="text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words text-center text-gray-950">Superior Hydration</h2>
         <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 text-center">Delivering a meticulously balanced blend of essential minerals. Experience the vitality of 2 parts calcium to 1 part magnesium – the foundation for optimal health and peak performance.</p>
         </div>
         <div className="grid grid-cols-2 max-w-6xl mx-auto gap-6">

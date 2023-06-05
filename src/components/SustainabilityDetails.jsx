@@ -30,22 +30,22 @@ export function SustainabilityDetails() {
     <section className="py-20 lg:pb-96">
         <div className="p-0">
             <div className="flex flex-col items-center justify-center">
-                <div className="max-w-6xl lg:pb-6">
+                <div className="max-w-6xl lg:pb-6 px-4">
                     <h2 className="text-left text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words">Sustainability <br /> Defined</h2>
                     <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">Stand at the vanguard of the green revolution. With SmartBottlingplant™, you&apos;re not just reducing plastic waste. You&apos;re actively shaping a sustainable future, embodying the ethos of eco-luxury.</p>
                 </div>
                 <div className="max-w-screen-md pt-20 relative">
-                    <div className="flex">
-                    <Recycle className="h-auto" />
+                    <div className="flex px-4">
+                    <Recycle className="h-auto w-full" />
                     </div>
-                    <div className="absolute -right-1/4 sm:-right-2/4 transform top-1/2 -translate-y-1/2 -mt-96">
-                        <Image src={mineral} className="w-80" alt="" />
+                    <div className="absolute -right-1/4 sm:-right-2/4 transform top-1/2 -translate-y-1/2 -mt-96 hidden md:block">
+                        <Image src={mineral} className="w-40 lg:w-80" alt="" />
                     </div>
-                    <div className="absolute transform top-1/2 -translate-y-1/2 -left-12/20 waterbottle">
-                        <Image src={deliciousWater} className="w-72 rotate-45 opacity-90" alt="" />
+                    <div className="absolute transform top-1/2 -translate-y-1/2 -left-12/20 waterbottle hidden md:block">
+                        <Image src={deliciousWater} className="w-32 lg:w-72 rotate-45 opacity-90" alt="" />
                     </div>
-                    <div className="absolute transform -bottom-2/4 -right-40  -translate-y-1/2  mt-96">
-                        <Image src={deliciousIce} className="w-72 -rotate-45" alt="" />
+                    <div className="absolute transform -bottom-2/4 -right-40  -translate-y-1/2  mt-96 hidden md:block">
+                        <Image src={deliciousIce} className="w-32 lg:w-72 -rotate-45" alt="" />
                     </div>
                 </div>
             </div>

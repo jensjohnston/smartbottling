@@ -28,7 +28,6 @@ export default function Home() {
         <Hero />
         <ProductDetails />
         <SustainabilityDetails />
-        <SecondaryFeatures />
         <TheScience />
         <CallToAction />
       </main>

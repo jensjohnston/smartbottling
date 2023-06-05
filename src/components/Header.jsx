@@ -93,19 +93,19 @@ export function Header() {
   return (
     <header className="lg:py-4 sm:px-6 lg:px-8">
       <Container>
-        <nav className="relative z-50 flex justify-between">
+        <nav className="relative z-50 flex justify-between p-4 py-2">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
               <Logo className="h-6 w-auto" />
             </Link>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Button href="/https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank" color="blue">
+            <Button className="rounded-full bg-blue-600 px-2.5 py-1 text-xs font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outfocus-visible:outline-offset-2 focus-visible:outline-blue-600" href="/https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank" color="blue">
               <span>
                 Contact sales
               </span>
             </Button>
-            <div className="-mr-1 md:hidden">
+            <div className="-mr-1 md:hidden hidden">
               <MobileNavigation />
             </div>
           </div>
