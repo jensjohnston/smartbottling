@@ -220,7 +220,7 @@ export function TheScience() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center px-4">
         <h2 className="text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words text-left lg:text-center text-gray-950">Superior Hydration</h2>
-        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">Delivering a <span className="text-gray-900">meticulously balanced blend</span> of essential minerals. Experience the vitality of <span className="text-gray-900">2 parts calcium to 1 part magnesium</span> – the foundation for optimal health and peak performance.</p>
+        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center">Delivering a <span className="text-gray-900">meticulously balanced blend</span> of essential minerals. Experience the vitality of <span className="text-gray-900">2 parts calcium to 1 part magnesium</span> – the foundation for optimal health and peak performance.</p>
         </div>
         <div className="flex justify-center max-w-6xl mx-auto gap-6">
             <p className="text-65vw lg:text-45vw lg:text-10xl font-bold text-gray-900">2:1</p>    

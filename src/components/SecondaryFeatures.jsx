@@ -220,7 +220,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center px-4 md:px-0">
         <h2 className="text-left text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words text-left md:text-center">Efficiency <br /> elevated</h2>
-        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">Unleash the power of simplicity with Bluewater&apos;s SmartBottlingplant™. Experience <span className="text-gray-900">savings</span>, <span className="text-gray-900">streamlined operations</span> and effortless automation, all engineered for your convenience.</p>
+        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center">Unleash the power of simplicity with Bluewater&apos;s SmartBottlingplant™. Experience <span className="text-gray-900">savings</span>, <span className="text-gray-900">streamlined operations</span> and effortless automation, all engineered for your convenience.</p>
         </div>
         <div className="grid grid-cols-2 max-w-6xl mx-auto mt-8 lg:mt-20 gap-6 px-4 md:px-0">
         <div className="col-span-2 md:col-span-1 bg-gray-50 p-10 rounded-4xl">
