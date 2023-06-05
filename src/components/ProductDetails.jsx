@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import feature1 from '@/images/background1.jpg'
 import bottlePlant from '@/images/bottle-plant.jpg'
+import bottlePlantMobile from '@/images/bottle-plant-mobile.jpg'
 
 export function ProductDetails() {
   // Replace this with your actual data
@@ -22,7 +23,7 @@ export function ProductDetails() {
   ];
 
   return (
-    <section className="py-20 lg:pt-48">
+    <section className="py-20 lg:pt-48 pt-20">
         <div className="md:p-0">
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6 px-4">
@@ -31,7 +32,8 @@ export function ProductDetails() {
                 </div>
             </div>
       <div className="mt-4">
-        <Image src={bottlePlant} alt="A water bottling plant for hotels" className="w-full mt-6 md:mt-0" />
+        <Image src={bottlePlant} alt="A water bottling plant for hotels" className="w-full mt-6 md:mt-0 hidden md:block" />
+        <Image src={bottlePlantMobile} alt="A water bottling plant for hotels" className="w-full mt-6 md:mt-0 md:hidden" />
       </div>
       {features.map((feature, index) => (
         <div key={index} className="flex mt-4 hidden">

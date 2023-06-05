@@ -27,14 +27,14 @@ export function SustainabilityDetails() {
   ];
 
   return (
-    <section className="py-20 lg:pb-96">
+    <section className="py-20 lg:pb-96 pt-0 lg:pt-20">
         <div className="p-0">
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6 px-4">
                     <h2 className="text-left text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words">Sustainability <br /> Defined</h2>
-                    <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">Stand at the vanguard of the green revolution. With SmartBottlingplant™, you&apos;re not just reducing plastic waste. You&apos;re actively shaping a sustainable future, embodying the ethos of eco-luxury.</p>
+                    <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">Stand at the vanguard of the <span className="text-gray-900">green revolution</span>. With SmartBottlingplant™, you're not just reducing plastic waste. You're actively shaping a <span className="text-gray-900">sustainable future</span>, embodying the ethos of <span className="text-gray-900">eco-luxury</span>.</p>
                 </div>
-                <div className="max-w-screen-md pt-20 relative">
+                <div className="max-w-screen-md pt-8 lg:pt-20 relative">
                     <div className="flex px-4">
                     <Recycle className="h-auto w-full" />
                     </div>

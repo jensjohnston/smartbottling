@@ -17,8 +17,7 @@ export function Hero() {
             Introducing SmartBottlingplant™
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-white font-medium z-10 relative">
-            Most bookkeeping software is accurate, but hard to use. We make the
-            opposite trade-off, and hope you don’t get audited.
+          Revolutionize hydration with SmartBottlingplant™.
           </p>
           <div className="mt-10 flex justify-center gap-x-6 z-10 relative">
             <Button href="/register">Contact sales</Button>

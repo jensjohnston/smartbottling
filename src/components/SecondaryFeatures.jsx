@@ -215,41 +215,41 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-0 lg:pb-32 sm:px-6 lg:px-8"
+      className="pb-14 pt-0 sm:pb-20 sm:pt-0 lg:pb-32 sm:px-6 lg:px-8"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
-        <h2 className="text-left text-8xl font-bold break-words text-center">Efficiency <br /> elevated</h2>
-        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 text-center">Unleash the power of simplicity with Bluewater&apos;s SmartBottlingplant™. Experience savings, streamlined operations and effortless automation, all engineered for your convenience.</p>
+        <div className="mx-auto max-w-2xl md:text-center px-4 md:px-0">
+        <h2 className="text-left text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words text-left md:text-center">Efficiency <br /> elevated</h2>
+        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">Unleash the power of simplicity with Bluewater's SmartBottlingplant™. Experience <span className="text-gray-900">savings</span>, <span className="text-gray-900">streamlined operations</span> and effortless automation, all engineered for your convenience.</p>
         </div>
-        <div className="grid grid-cols-2 max-w-6xl mx-auto mt-20 gap-6">
-        <div className="col-span-1 bg-gray-50 p-10 rounded-4xl">
+        <div className="grid grid-cols-2 max-w-6xl mx-auto mt-8 lg:mt-20 gap-6 px-4 md:px-0">
+        <div className="col-span-2 md:col-span-1 bg-gray-50 p-10 rounded-4xl">
           <div className="h-full flex flex-col items-center">
-            <div className="grid mt-20">
-              <h3 className="font-bold text-gray-900 text-6xl text-center">Lower Costs, Higher Profits</h3>
+            <div className="grid md:mt-20 mt-0">
+              <h3 className="font-bold text-gray-900 text-3xl md:text-6xl text-center">Lower Costs, Higher Profits</h3>
             </div>
             <div className="relative w-full flex-grow flex items-center">
-            <Dollar className="h-full w-full mt-20" />
+            <Dollar className="h-full w-full lg:mt-20 mt-4" />
             </div>
           </div>
         </div>
-        <div className="col-span-1 bg-gray-50 p-10 rounded-4xl">
+        <div className="col-span-2 md:col-span-1 bg-gray-50 p-10 rounded-4xl">
           <div className="h-full flex flex-col items-center">
-            <div className="grid mt-20">
-              <h3 className="font-bold text-gray-900 text-6xl text-center">Easy To Use, Hassle-Free</h3>
+            <div className="grid md:mt-20 mt-0">
+              <h3 className="font-bold text-gray-900 text-3xl md:text-6xl text-center">Easy To Use, Hassle-Free</h3>
             </div>
             <div className="relative w-full flex-grow flex items-center">
-            <PlayIcon className="h-full w-full mt-20 h-72" />
+            <PlayIcon className="h-full w-full lg:mt-20 mt-4 h-72" />
             </div>
           </div>
         </div>
-        <div className="col-span-2 bg-gray-50 p-10 rounded-4xl">
+        <div className="col-span-2 md:col-span-2 bg-gray-50 p-10 rounded-4xl">
           <div className="h-full flex flex-col items-center">
-            <div className="grid mt-20">
-              <h3 className="font-bold text-gray-900 text-6xl md:text-center">Consistent, Trustworthy Performance</h3>
+            <div className="grid md:mt-20 mt-0">
+              <h3 className="font-bold text-gray-900 text-3xl md:text-6xl text-center md:text-center">Consistent, Trustworthy Performance</h3>
             </div>
             <div className="relative w-full flex-grow flex justify-center items-center">
-            <Checkmark className="h-full w-1/2 mt-20 h-72" />
+            <Checkmark className="h-full w-full lg:w-1/2  mt-4 lg:mt-20 h-72" />
             </div>
           </div>
         </div>

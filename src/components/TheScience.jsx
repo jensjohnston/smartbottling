@@ -215,15 +215,15 @@ export function TheScience() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-0 lg:pb-32 sm:px-6 lg:px-8"
+      className="pb-14 pt-0 sm:pb-20 sm:pt-0 lg:pb-32 sm:px-6 lg:px-8"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
-        <h2 className="text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words text-center text-gray-950">Superior Hydration</h2>
-        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 text-center">Delivering a meticulously balanced blend of essential minerals. Experience the vitality of 2 parts calcium to 1 part magnesium – the foundation for optimal health and peak performance.</p>
+        <div className="mx-auto max-w-2xl md:text-center px-4">
+        <h2 className="text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words text-left lg:text-center text-gray-950">Superior Hydration</h2>
+        <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">Delivering a <span className="text-gray-900">meticulously balanced blend</span> of essential minerals. Experience the vitality of <span className="text-gray-900">2 parts calcium to 1 part magnesium</span> – the foundation for optimal health and peak performance.</p>
         </div>
-        <div className="grid grid-cols-2 max-w-6xl mx-auto gap-6">
-            <p className="text-10xl font-bold text-gray-900">2:1</p>    
+        <div className="flex justify-center max-w-6xl mx-auto gap-6">
+            <p className="text-65vw lg:text-45vw lg:text-10xl font-bold text-gray-900">2:1</p>    
         </div>
       </Container>
     </section>

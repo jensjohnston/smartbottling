@@ -20,7 +20,7 @@ export default function Home() {
         <title>Bluewater - A new era of water</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Revolutionize hydration with SmartBottlingplant™."
         />
       </Head>
       <Header />
@@ -28,6 +28,7 @@ export default function Home() {
         <Hero />
         <ProductDetails />
         <SustainabilityDetails />
+        <SecondaryFeatures />
         <TheScience />
         <CallToAction />
       </main>
