@@ -32,10 +32,10 @@ export function Hero() {
         </div>
 
         <div className="absolute w-full h-full top-0 bg-black overflow-hidden">
-          <video className="object-cover w-full h-full opacity-50" autoPlay loop muted>
-            <source src="videos/bottling-video-web.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <video className="object-cover w-full h-full opacity-50" autoPlay loop muted playsInline>
+          <source src="videos/bottling-video-web.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         </div>
       </div>
     </Container>
