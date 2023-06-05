@@ -12,7 +12,7 @@ export default function Document(props) {
       <link rel="preconnect" href="https://use.typekit.net" />
       <link rel="stylesheet" href="https://use.typekit.net/rhp2kky.css" />
     </Head>
-      <body className="flex h-full flex-col">
+      <body className="flex h-full flex-col overflow-x-hidden">
         <Main />
         <NextScript />
       </body>

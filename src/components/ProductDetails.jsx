@@ -22,11 +22,11 @@ export function ProductDetails() {
   ];
 
   return (
-    <section className="py-20 lg:pt-48">
+    <section className="py-20 lg:pt-48 px-4">
         <div className="p-0">
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6">
-                    <h2 className="text-left text-8xl font-bold break-words">SmartBottlingplant™ <br /> A Leap Ahead</h2>
+                    <h2 className="text-left font-bold hyphens-manual lg:break-words text-4xl leading-tight md:leading-none md:text-8xl">Smart&shy;Bottlingplant™ <br /> A Leap Ahead</h2>
                     <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500">SmartBottlingplant™, by Bluewater, reimagines the way you serve water. Using <span className="text-gray-900">state-of-the-art technology</span>, our system transforms tap water into <span className="text-gray-900">premium, mineral-infused hydration</span>. It&apos;s not just about serving water, but a commitment to quality, sustainability, and an <span className="text-gray-900">elevated guest experience</span>.</p>
                 </div>
             </div>

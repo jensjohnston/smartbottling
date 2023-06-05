@@ -11,9 +11,9 @@ export function Hero() {
   return (
     <Container className="">
       <div className="pb-16 lg:pb-0 pt-20 text-center lg:pt-32 relative z-10 h-screen">
-        <div className="flex items-center justify-center h-full flex-col">
+        <div className="flex items-center justify-center h-full flex-col px-4">
           <h1
-            className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tightsm:text-7xl break-words z-10 relative text-white">
+            className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-tightsm:text-7xl break-all lg:break-words z-10 relative text-white">
             Introducing SmartBottlingplant™
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-white font-medium z-10 relative">
@@ -32,7 +32,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="absolute w-full h-full top-0 bg-black">
+        <div className="absolute w-full h-full top-0 bg-black overflow-hidden">
           <video className="object-cover w-full h-full opacity-50" autoPlay loop muted>
             <source src="videos/bottling-video-web.mp4" type="video/mp4" />
             Your browser does not support the video tag.
