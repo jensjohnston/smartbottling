@@ -19,7 +19,7 @@ export function Hero() {
           opposite trade-off, and hope you don’t get audited.
         </p>
         <div className="mt-10 flex justify-center gap-x-6 z-10">
-          <Button href="/register">Let's talk</Button>
+          <Button href="/register">Let&apos;s talk</Button>
           <Button
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             variant="outline"
