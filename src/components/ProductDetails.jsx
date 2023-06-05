@@ -22,7 +22,7 @@ export function ProductDetails() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20 lg:pt-48">
         <div className="p-0">
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6">

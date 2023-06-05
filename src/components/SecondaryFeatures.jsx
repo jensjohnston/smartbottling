@@ -225,7 +225,7 @@ export function SecondaryFeatures() {
         <div className="col-span-1 bg-gray-50 p-10 rounded-4xl">
           <div className="h-full flex flex-col items-center">
             <div className="grid mt-20">
-              <h3 className="font-bold text-gray-900 text-6xl">Lower Costs, Higher Profits</h3>
+              <h3 className="font-bold text-gray-900 text-6xl text-center">Lower Costs, Higher Profits</h3>
             </div>
             <div className="relative w-full flex-grow flex items-center">
             <Dollar className="h-full w-full mt-20" />
@@ -235,7 +235,7 @@ export function SecondaryFeatures() {
         <div className="col-span-1 bg-gray-50 p-10 rounded-4xl">
           <div className="h-full flex flex-col items-center">
             <div className="grid mt-20">
-              <h3 className="font-bold text-gray-900 text-6xl">Easy To Use, Hassle-Free</h3>
+              <h3 className="font-bold text-gray-900 text-6xl text-center">Easy To Use, Hassle-Free</h3>
             </div>
             <div className="relative w-full flex-grow flex items-center">
             <PlayIcon className="h-full w-full mt-20 h-72" />

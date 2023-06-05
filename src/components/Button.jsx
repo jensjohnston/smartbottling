@@ -26,7 +26,7 @@ const variantStyles = {
 
 export function Button({
   variant = 'solid',
-  color = 'slate',
+  color = 'white',
   className,
   href,
   ...props
