@@ -11,6 +11,7 @@ import { SustainabilityDetails } from '@/components/SustainabilityDetails'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import { TheScience } from '@/components/TheScience'
 
 export default function Home() {
   return (
@@ -28,10 +29,8 @@ export default function Home() {
         <ProductDetails />
         <SustainabilityDetails />
         <SecondaryFeatures />
+        <TheScience />
         <CallToAction />
-        <Testimonials />
-        <Pricing />
-        <Faqs />
       </main>
       <Footer />
     </>

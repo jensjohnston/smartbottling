@@ -21,7 +21,7 @@ export function Hero() {
             opposite trade-off, and hope you don’t get audited.
           </p>
           <div className="mt-10 flex justify-center gap-x-6 z-10 relative">
-            <Button href="/register">Let&apos;s talk</Button>
+            <Button href="/register">Contact sales</Button>
             <Button className="hidden" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" variant="outline">
               <svg aria-hidden="true" className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current">
                 <path
