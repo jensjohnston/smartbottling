@@ -35,10 +35,10 @@ export function Hero() {
         </div>
 
           <div className="absolute w-full h-screen top-0">
-        <video className="w-full" autoPlay loop muted>
-          <source src="/videos/bottling-video-web.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+          <video className="w-full" autoPlay loop muted>
+            <source src="/videos//videos/bottling-video-web.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </Container>
