@@ -100,7 +100,7 @@ export function Header() {
             </Link>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Button href="/register" color="blue">
+            <Button href="/https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank" color="blue">
               <span>
                 Contact sales
               </span>
