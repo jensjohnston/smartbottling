@@ -20,7 +20,7 @@ export function Hero() {
           Revolutionize hydration with SmartBottlingplant™.
           </p>
           <div className="mt-10 flex justify-center gap-x-6 z-10 relative">
-            <Button href="/register">Contact sales</Button>
+            <Button href="https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank" >Contact sales</Button>
             <Button className="hidden" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" variant="outline">
               <svg aria-hidden="true" className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current">
                 <path
