@@ -16,7 +16,7 @@ import { Checkmark } from '@/components/Checkmark'
 
 export function TheScience() {
   const { scrollYProgress } = useScroll()
-  const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2])
+  const scale = useTransform(scrollYProgress, [0.1, 1], [0.2, 2])
 
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -35,7 +35,7 @@ export function TheScience() {
         </div>
         <div ref={ref} className="flex items-center justify-center max-w-6xl mx-auto gap-6 h-64 lg:h-160">
           {inView && (
-            <motion.p className="text-75vw md:text-65vw font-bold text-gray-900" style={{ scale }} > 2:1 </motion.p>
+            <motion.p className={`text-75vw md:text-65vw font-bold ${inView ? 'blue-gradient' : ''}`} style={{ scale }} > 2:1 </motion.p> 
           )}
         </div>
       </Container>
