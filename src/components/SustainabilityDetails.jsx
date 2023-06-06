@@ -25,12 +25,12 @@ export function SustainabilityDetails() {
                     <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center z-20 relative">Stand at the vanguard of the <span className="text-gray-900">green revolution</span>. With SmartBottlingplant™, you&apos;re not just reducing plastic waste. You&apos;re actively shaping a <span className="text-gray-900">sustainable future</span>, embodying the ethos of <span className="text-gray-900">eco-luxury</span>.</p>
                 </div>
                 <div className="max-w-screen-md pt-8 lg:pt-20 relative">
-                    <div className="grid grid-cols-2">
+                    <div className="grid grid-cols-2 gap-x-4">
                         <div className="flex flex-col items-start w-full md:hidden">
-                            <Image src={deliciousWaterMobile} className="w-40 lg:w-80" alt="" />
+                            <Image src={deliciousWaterMobile} className="w-full" alt="" />
                         </div>
                         <div className="flex flex-col items-end justify-end w-full md:hidden">
-                            <Image src={mineral} className="w-40 lg:w-80" alt="" />
+                            <Image src={mineral} className="w-full" alt="" />
                         </div>
                     </div>
                     <div className="flex px-4 max-w-screen-md mx-auto justify-center">
@@ -42,8 +42,8 @@ export function SustainabilityDetails() {
                         <Recycle />
                       </motion.div>
                     </div>
-                    <div className="flex flex-col items-center justify-end w-full md:hidden">
-                            <Image src={deliciousIce} className="w-40 lg:w-80 mt-10" alt="" />
+                    <div className="flex flex-col items-center justify-end w-full md:hidden px-4">
+                            <Image src={deliciousIce} className="w-full mt-10" alt="" />
                     </div>
                     <div className="absolute -right-1/4 sm:-right-2/4 transform top-1/2 -translate-y-1/2 -mt-96 hidden md:block">
                         <Image src={mineral} className="w-40 lg:w-80" alt="" />
