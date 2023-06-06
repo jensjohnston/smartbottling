@@ -43,7 +43,7 @@ export function SustainabilityDetails() {
                       </motion.div>
                     </div>
                     <div className="flex flex-col items-center justify-end w-full md:hidden px-4">
-                            <Image src={deliciousIce} className="w-full mt-10" alt="" />
+                            <Image src={deliciousIce} className="w-10/20 mt-10" alt="" />
                     </div>
                     <div className="absolute -right-1/4 sm:-right-2/4 transform top-1/2 -translate-y-1/2 -mt-96 hidden md:block">
                         <Image src={mineral} className="w-40 lg:w-80" alt="" />
