@@ -33,7 +33,7 @@ export function TheScience() {
           <h2 className="text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words text-left lg:text-center text-gray-950">Superior Hydration</h2>
           <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center">Delivering a <span className="text-gray-900">meticulously balanced blend</span> of essential minerals. Experience the vitality of <span className="text-gray-900">2 parts calcium to 1 part magnesium</span> – the foundation for optimal health and peak performance.</p>
         </div>
-        <div ref={ref} className="flex items-center justify-center max-w-6xl mx-auto gap-6 h-64 lg:h-160">
+        <div ref={ref} className="flex items-center justify-center max-w-6xl mx-auto gap-6 h-64 lg:h-160 lg:mb-32">
           {inView && (
             <motion.p className={`text-75vw md:text-65vw font-bold ${inView ? 'blue-gradient' : ''}`} style={{ scale }} > 2:1 </motion.p> 
           )}

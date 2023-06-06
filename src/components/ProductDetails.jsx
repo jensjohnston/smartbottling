@@ -33,7 +33,7 @@ export function ProductDetails() {
             </div>
       <div className="mt-4">
         <Image src={bottlePlant} alt="A water bottling plant for hotels" className="w-full mt-6 md:mt-0 hidden md:block" />
-        <Image src={bottlePlantMobile} alt="A water bottling plant for hotels" className="w-full mt-6 md:mt-0 md:hidden" />
+        <Image src={bottlePlantMobile} alt="A water bottling plant for hotels" className="w-full mt-10 md:mt-0 md:hidden" />
       </div>
       {features.map((feature, index) => (
         <div key={index} className="flex mt-4 hidden">
