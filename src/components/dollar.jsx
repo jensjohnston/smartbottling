@@ -9,9 +9,7 @@ return (
             stroke-linecap="round" />
     </g>
     <defs>
-        <clipPath id="clip0_9416_7906">
-            <rect width="165" height="165.552" fill="white" transform="translate(5 5.01709)" />
-        </clipPath>
+        
     </defs>
 </svg>
 
