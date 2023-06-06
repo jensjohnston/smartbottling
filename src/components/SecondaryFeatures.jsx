@@ -39,7 +39,7 @@ const MagicHatAnimated = ({ className }) => {
                   strokeLinecap="round"
                   initial={{ pathLength: 0, opacity: 0 }}
                   animate={{ pathLength: inView ? 1 : 0, opacity: inView ? 1 : 1 }}
-                  transition={{ duration: 1 }}
+                  transition={{ duration: 2 }}
               />
               <motion.path
                   d="M87.2266 11.3843V164.201"
@@ -49,7 +49,39 @@ const MagicHatAnimated = ({ className }) => {
                   strokeLinecap="round"
                   initial={{ pathLength: 0, opacity: 0 }}
                   animate={{ pathLength: inView ? 1 : 0, opacity: inView ? 1 : 1 }}
-                  transition={{ duration: 1.5 }}
+                  transition={{ duration: 2 }}
+              />
+          </g>
+      </svg>
+  );
+};
+
+
+
+const MagicHatAnimated3 = ({ className }) => {
+  const [ref, inView] = useInView({
+      triggerOnce: true, // Change it to false if you want the animation to trigger again whenever it comes into view
+  });
+
+  return (
+      <svg
+          ref={ref}
+          className={className}
+          width="180"
+          height="76"
+          viewBox="0 0 180 76"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+      >
+          <g clipPath="url(#clip0_9416_7906)">
+              <motion.path
+                  d="M78.2566 52.0335C48.0228 95.981 5.05833 41.7918 30.4565 17.868C40.2861 8.60921 55.4584 8.08602 66.5404 15.8228C88.6885 31.2647 100.341 68.0778 132.16 64.7168C190.598 48.9578 130.702 -25.2551 100.452 23.4962"
+                  stroke="#3B82F6"
+                  strokeWidth="12.7348"
+                  strokeLinecap="round"
+                  initial={{ pathLength: 0 }}
+                  animate={{ pathLength: inView ? 1 : 0 }}
+                  transition={{ duration: 2 }}
               />
           </g>
       </svg>
@@ -95,7 +127,7 @@ export function SecondaryFeatures() {
               <h3 className="font-bold text-gray-900 text-3xl md:text-6xl text-center md:text-center">Consistent, Trustworthy Performance</h3>
             </div>
             <div className="relative w-full flex-grow flex justify-center items-center">
-            <Checkmark className="h-full w-full lg:w-1/2  mt-4 lg:mt-20 h-72" />
+            <MagicHatAnimated3 className="w-full lg:w-1/2  mt-4 lg:mt-20 h-full lg:mb-20" />
             </div>
           </div>
         </div>
