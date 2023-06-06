@@ -17,7 +17,7 @@ export function SustainabilityDetails() {
   const rotate = useTransform(scrollYProgress, [0, 1], [0, 360]);
 
   return (
-    <section className="py-20 lg:pb-96 pt-0 lg:pt-20">
+    <section className="pb-6 py-20 lg:pb-96 pt-0 lg:pt-20">
         <div className="p-0">
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6 px-4">
@@ -30,7 +30,7 @@ export function SustainabilityDetails() {
                             <Image src={deliciousWaterMobile} className="w-full" alt="" />
                         </div>
                         <div className="flex flex-col items-end justify-end w-full md:hidden">
-                            <Image src={mineral} className="w-full" alt="" />
+                            <Image src={mineral} className="w-16/20" alt="" />
                         </div>
                     </div>
                     <div className="flex px-4 max-w-screen-md mx-auto justify-center">
