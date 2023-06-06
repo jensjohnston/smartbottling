@@ -7,6 +7,7 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import before from '@/images/before.jpg'
 
 import { Dollar } from '@/components/dollar'
 import { PlayIcon } from '@/components/PlayIcon'
@@ -101,23 +102,33 @@ export function SecondaryFeatures() {
         <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center">Unleash the power of simplicity with Bluewater&apos;s SmartBottlingplant™. Experience <span className="text-gray-900">savings</span>, <span className="text-gray-900">streamlined operations</span> and effortless automation, all engineered for your convenience.</p>
         </div>
         <div className="grid grid-cols-2 max-w-6xl mx-auto mt-8 lg:mt-20 gap-6 px-4 md:px-0">
-        <div className="col-span-2 md:col-span-1 bg-gray-50 p-10 rounded-4xl">
+        <div className="col-span-2 md:col-span-2 bg-gray-50 p-10 rounded-4xl">
           <div className="h-full flex flex-col items-center">
             <div className="grid md:mt-20 mt-0">
               <h3 className="font-bold text-gray-900 text-3xl md:text-6xl text-center">Lower Costs, Higher Profits</h3>
             </div>
-            <div className="relative w-full flex-grow flex items-center">
-            <MagicHatAnimated className="h-full w-full lg:mt-20 mt-4" />
+            <div className="relative w-full flex-grow flex justify-center items-center">
+            <MagicHatAnimated className="h-full w-full lg:w-1/2 lg:mt-20 mt-4" />
             </div>
           </div>
         </div>
-        <div className="col-span-2 md:col-span-1 bg-gray-50 p-10 rounded-4xl">
+        <div className="col-span-2 md:col-span-1 bg-gray-50 rounded-4xl">
           <div className="h-full flex flex-col items-center">
-            <div className="grid md:mt-20 mt-0">
-              <h3 className="font-bold text-gray-900 text-3xl md:text-6xl text-center">Easy To Use, Hassle-Free</h3>
+            <div className="relative w-full h-full flex-grow flex items-center">
+            <Image src={before} className="object-cover rounded-4xl" alt="" />
             </div>
-            <div className="relative w-full flex-grow flex items-center">
-            <PlayIcon className="h-full w-full lg:mt-20 mt-4 h-72" />
+          </div>
+        </div>
+        <div className="col-span-2 md:col-span-1 bg-gray-50 rounded-4xl h-120 md:h-full">
+          <div className="h-full flex flex-col items-center relative">
+            <div className="grid md:mt-0 mt-0 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+              <h3 className="font-bold text-gray-900 text-8xl md:text-9xl text-center z-20">After</h3>
+            </div>
+            <div className="relative w-full h-full flex-grow flex items-center">
+            <video className="object-cover w-full h-full opacity-100 rounded-4xl" autoPlay loop muted playsInline>
+              <source src="videos/bottling-video-web.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             </div>
           </div>
         </div>
