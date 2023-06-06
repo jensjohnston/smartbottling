@@ -127,7 +127,7 @@ export function SecondaryFeatures() {
               <h3 className="font-bold text-gray-900 text-3xl md:text-6xl text-center md:text-center">Consistent, Trustworthy Performance</h3>
             </div>
             <div className="relative w-full flex-grow flex justify-center items-center">
-            <MagicHatAnimated3 className="w-full lg:w-1/2  mt-4 lg:mt-20 h-full lg:mb-20" />
+            <MagicHatAnimated3 className="w-full lg:w-1/2  mt-4 lg:mt-20 h-64 lg:h-full lg:mb-20" />
             </div>
           </div>
         </div>
