@@ -13,8 +13,8 @@ export function Hero() {
       <div className="pb-16 lg:pb-0 pt-20 text-center lg:pt-32 relative z-10 h-screen">
         <div className="flex items-center justify-center h-full flex-col px-4">
           <h1
-            className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-tightsm:text-7xl break-all lg:break-words z-10 relative text-white">
-            Introducing SmartBottlingplant™
+            className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-tight leading-tight sm:text-7xl hyphens-manual lg:break-words z-10 relative text-white">
+            Introducing Smart&shy;Bottlingplant™
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-white font-medium z-10 relative">
           Revolutionize hydration with SmartBottlingplant™.
