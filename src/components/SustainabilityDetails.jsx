@@ -33,9 +33,9 @@ export function SustainabilityDetails() {
                             <Image src={mineral} className="w-16/20" alt="" />
                         </div>
                     </div>
-                    <div className="flex px-4 max-w-screen-md mx-auto justify-center">
+                    <div className="flex px-4 max-w-screen-md mx-auto justify-center overflow-hidden">
                       <motion.div
-                        className="h-auto lg:w-full max-w-screen-md overflow-hidden w-13/20"
+                        className="h-auto lg:w-full max-w-screen-md overflow-hidden w-18/20"
                         style={{ rotate }}
                         transition={{ duration: 0.5 }}
                       >
