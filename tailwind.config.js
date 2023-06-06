@@ -18,8 +18,8 @@ module.exports = {
       '7xl': ['4.5rem', { lineHeight: '1.1' }],
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
-      '45w': ['45vw', { lineHeight: '1' }],
-      '65vw': ['65vw', { lineHeight: '1' }],
+      '75vw': ['35vw', { lineHeight: '1' }],
+      '65vw': ['25vw', { lineHeight: '1' }],
     },
     extend: {
       borderRadius: {
