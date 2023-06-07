@@ -17,7 +17,7 @@ export function Hero() {
             A new era of water
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-white font-medium z-10 relative">
-          SmartBottlingplant™ - designed to address your hotel's water needs.
+          SmartBottlingplant™ - designed to address your hotel&apos;s water needs.
           </p>
           <div className="mt-10 flex justify-center gap-x-6 z-10 relative">
             <Button href="https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank" >Contact sales</Button>
