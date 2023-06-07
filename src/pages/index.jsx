@@ -20,7 +20,7 @@ export default function Home() {
         <title>Bluewater - A new era of water</title>
         <meta
           name="description"
-          content="Revolutionize hydration with SmartBottlingplant™."
+          content="Revolutionize hydration with SmartBottlingplant™ for hotels."
         />
       </Head>
       <Header />
