@@ -21,8 +21,8 @@ export function SustainabilityDetails() {
         <div className="p-0">
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6 px-4">
-                    <h2 className="text-left text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words lg:text-center">Sustainability <br /> Defined</h2>
-                    <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center z-20 relative">Stand at the vanguard of the <span className="text-gray-900">green revolution</span>. With SmartBottlingplant™, you&apos;re not just reducing plastic waste. You&apos;re actively shaping a <span className="text-gray-900">sustainable future</span>, embodying the ethos of <span className="text-gray-900">eco-luxury</span>.</p>
+                    <h2 className="text-left text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words lg:text-center">Redefine <br /> Sustainability</h2>
+                    <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center z-20 relative">Our industry-beting recovery rate reduces waste and <span className="text-gray-900">drives sustainability</span>. Provide your guests with an unforgettable experience, <span className="text-gray-900">free from single-use plastic bottles</span> and it's contaminants. Embrace your role as <span className="text-gray-900">a pioneer</span> in the <span className="text-gray-900">sustainable</span> hospitality <span className="text-gray-900">revolution</span>.</p>
                 </div>
                 <div className="max-w-screen-md pt-8 lg:pt-20 relative">
                     <div className="grid grid-cols-2 gap-x-4">
@@ -33,7 +33,7 @@ export function SustainabilityDetails() {
                             <Image src={mineral} className="w-16/20" alt="" />
                         </div>
                     </div>
-                    <div className="flex px-4 max-w-screen-md mx-auto justify-center overflow-hidden">
+                    <div className="flex px-4 max-w-screen-md mx-auto justify-center overflow-hidden relative">
                       <motion.div
                         className="h-auto lg:w-full max-w-screen-md overflow-hidden w-18/20"
                         style={{ rotate }}
@@ -41,6 +41,7 @@ export function SustainabilityDetails() {
                       >
                         <Recycle />
                       </motion.div>
+                      <div className="absolute text-gray-900 text-2xl md:text-5xl transform top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-center font-bold mt-2 w-64 lg:w-120">Rethink your drink</div>
                     </div>
                     <div className="flex flex-col items-center justify-end w-full md:hidden px-4">
                             <Image src={deliciousIce} className="w-10/20 mt-10" alt="" />

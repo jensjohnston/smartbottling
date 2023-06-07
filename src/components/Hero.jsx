@@ -14,10 +14,10 @@ export function Hero() {
         <div className="flex items-center justify-center h-full flex-col px-4">
           <h1
             className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-tight leading-tight sm:text-7xl hyphens-manual lg:break-words z-10 relative text-white">
-            Introducing Smart&shy;Bottlingplant™
+            A new era of water
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-white font-medium z-10 relative">
-          Revolutionize hydration with SmartBottlingplant™.
+          SmartBottlingplant™ - designed to address your hotel's water needs.
           </p>
           <div className="mt-10 flex justify-center gap-x-6 z-10 relative">
             <Button href="https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank" >Contact sales</Button>
