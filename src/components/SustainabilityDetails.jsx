@@ -10,6 +10,7 @@ import deliciousWaterMobile from '@/images/delicious-bluewater-water-mobile.png'
 import bottlePlant from '@/images/bottle-plant.jpg'
 import deliciousIce from '@/images/delicious-blueberries.png'
 import { Recycle } from '@/components/Recycle'
+import { Line } from '@/components/line'
 
 
 export function SustainabilityDetails() {
@@ -41,7 +42,10 @@ export function SustainabilityDetails() {
                       >
                         <Recycle />
                       </motion.div>
-                      <div className="absolute text-gray-900 text-2xl md:text-5xl transform top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-center font-bold mt-2 w-64 lg:w-120">Rethink your drink</div>
+                      <div className="absolute transform top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-center font-bold mt-2 w-64 lg:w-120 flex flex-col gap-y-px items-center justify-center">
+                        <p className="text-gray-900 text-2xl md:text-5xl z-10">Rethink your drink</p>
+                        <Line className="w-52 lg:w-104 -mt-3" />
+                      </div>
                     </div>
                     <div className="flex flex-col items-center justify-end w-full md:hidden px-4">
                             <Image src={deliciousIce} className="w-10/20 mt-10" alt="" />
