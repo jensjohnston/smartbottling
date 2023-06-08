@@ -23,7 +23,7 @@ export function SustainabilityDetails() {
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6 px-4">
                     <h2 className="text-left text-4xl leading-tight md:leading-none md:text-8xl font-bold break-words lg:text-center">Redefine <br /> Sustainability</h2>
-                    <p className="text-left text-2xl max-w-2xl mt-4 font-medium text-gray-500 lg:text-center z-20 relative">Our industry-beating recovery rate reduces waste and <span className="text-gray-900">drives sustainability</span>. Provide your guests with an unforgettable experience, <span className="text-gray-900">free from single-use plastic bottles</span> and it&apos;s contaminants. Embrace your role as <span className="text-gray-900">a pioneer</span> in the <span className="text-gray-900">sustainable</span> hospitality <span className="text-gray-900">revolution</span>.</p>
+                    <p className="text-left text-2xl max-w-2xl mt-4 md:mt-10 font-medium text-gray-500 lg:text-center z-20 relative">Our industry-beating recovery rate reduces waste and <span className="text-gray-900">drives sustainability</span>. Provide your guests with an unforgettable experience, <span className="text-gray-900">free from single-use plastic bottles</span> and it&apos;s contaminants. Embrace your role as <span className="text-gray-900">a pioneer</span> in the <span className="text-gray-900">sustainable</span> hospitality <span className="text-gray-900">revolution</span>.</p>
                 </div>
                 <div className="max-w-screen-md pt-8 lg:pt-20 relative">
                     <div className="grid grid-cols-2 gap-x-4">
@@ -44,7 +44,7 @@ export function SustainabilityDetails() {
                       </motion.div>
                       <div className="absolute transform top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-center font-bold mt-2 w-64 lg:w-120 flex flex-col gap-y-px items-center justify-center">
                         <p className="text-gray-900 text-2xl md:text-5xl z-10">Rethink your drink</p>
-                        <Line className="w-52 lg:w-104 -mt-3" />
+                        <Line className="w-52 lg:w-104 -mt-6" />
                       </div>
                     </div>
                     <div className="flex flex-col items-center justify-end w-full md:hidden px-4">
