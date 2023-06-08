@@ -22,8 +22,11 @@ export function ProductDetails() {
     // ... add more features here if needed
   ];
 
+
+  
+
   return (
-    <section className="py-20 lg:pt-48 pt-20">
+    <section className="py-20 lg:pt-48 pt-20" id="smartbottling">
         <div className="md:p-0">
             <div className="flex flex-col items-center justify-center">
                 <div className="max-w-6xl lg:pb-6 px-4 flex flex-col items-center">

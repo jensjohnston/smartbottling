@@ -100,7 +100,7 @@ export function Header() {
             </Link>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Button className="rounded-full bg-blue-600 px-2.5 py-1 text-xs font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outfocus-visible:outline-offset-2 focus-visible:outline-blue-600" href="https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank"  color="blue">
+            <Button className="rounded-full bg-blue-600 px-2.5 py-1 text-xs font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outfocus-visible:outline-offset-2 focus-visible:outline-blue-600" href="mailto:sumit@nia.me" target="_blank"  color="blue">
               <span>
                 Contact sales
               </span>

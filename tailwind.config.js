@@ -77,6 +77,7 @@ module.exports = {
         '288': '72rem',
         '320': '80rem',
         '600': '600px',
+        'h-80vh': '80vh'
         // ... add more if needed
       }
     },

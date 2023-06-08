@@ -1,5 +1,6 @@
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+import { ArrowDown } from '@/components/ArrowDown'
 import logoLaravel from '@/images/logos/laravel.svg'
 import logoMirage from '@/images/logos/mirage.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
@@ -7,10 +8,11 @@ import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
 
+
 export function Hero() {
   return (
     <Container className="">
-      <div className="pb-16 lg:pb-0 pt-20 text-center lg:pt-32 relative z-10 h-screen">
+      <div className="pb-16 lg:pb-0 pt-20 text-center lg:pt-0 relative z-10 custom-height">
         <div className="flex items-center justify-center h-full flex-col px-4">
           <h1
             className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-tight leading-tight sm:text-7xl hyphens-manual lg:break-words z-10 relative text-white">
@@ -20,7 +22,7 @@ export function Hero() {
           SmartBottlingplant™ - designed to address your hotel&apos;s water needs.
           </p>
           <div className="mt-10 flex justify-center gap-x-6 z-10 relative">
-            <Button href="https://sd573ixhwxd.typeform.com/to/gZX7RZNm" target="_blank" >Contact sales</Button>
+            <Button href="mailto:sumit@nia.me" target="_blank" >Contact sales</Button>
             <Button className="hidden" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" variant="outline">
               <svg aria-hidden="true" className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current">
                 <path
@@ -36,6 +38,13 @@ export function Hero() {
           <source src="videos/bottling-video-web.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <ArrowDown
+          onClick={() => {
+            document.querySelector('#smartbottling').scrollIntoView({ behavior: 'smooth' });
+          }}
+          className="bottom-4 md:bottom-10 absolute left-1/2 -translate-x-1/2 animate-bounce"
+        />
+
         </div>
       </div>
     </Container>

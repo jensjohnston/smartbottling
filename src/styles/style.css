@@ -22,3 +22,34 @@
     -webkit-animation: slideOut 1.5s cubic-bezier(0.85,0,0.15,1) forwards;
     animation: slideOut 1.5s cubic-bezier(0.85,0,0.15,1) forwards;
 }
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translate(-50%, 0);
+      left: 50%;
+    }
+    40% {
+        transform: translate(-50%, -20px);
+      left: 50%;
+    }
+    60% {
+      transform: translate(-50%, -15px);
+      transform: translateX(-50%);
+      left: 50%;
+    }
+  }
+  
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+
+  .custom-height {
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 480px) {
+    .custom-height {
+        height: calc(100vh - 48px);
+    }
+}
