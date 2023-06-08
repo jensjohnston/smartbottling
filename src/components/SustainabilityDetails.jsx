@@ -42,9 +42,9 @@ export function SustainabilityDetails() {
                       >
                         <Recycle />
                       </motion.div>
-                      <div className="absolute transform top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-center font-bold mt-2 w-64 lg:w-120 flex flex-col gap-y-px items-center justify-center">
-                        <p className="text-gray-900 text-2xl md:text-5xl z-10">Rethink your drink</p>
-                        <Line className="w-52 lg:w-104 -mt-6" />
+                      <div className="absolute transform top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-center font-bold mt-2 w-64 lg:w-144 flex flex-col gap-y-px items-center justify-center">
+                        <p className="text-gray-900 text-2xl md:text-6xl z-10">Rethink your drink</p>
+                        <Line className="w-52 lg:w-120 -mt-6 md:-mt-2" />
                       </div>
                     </div>
                     <div className="flex flex-col items-center justify-end w-full md:hidden px-4">
