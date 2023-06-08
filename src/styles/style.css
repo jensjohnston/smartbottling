@@ -50,6 +50,6 @@
 
 @media (max-width: 480px) {
     .custom-height {
-        height: calc(100vh - 64px);
+        height: calc(90vh - 48px);
     }
 }
