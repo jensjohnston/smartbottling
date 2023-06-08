@@ -42,7 +42,7 @@ export function Hero() {
           onClick={() => {
             document.querySelector('#smartbottling').scrollIntoView({ behavior: 'smooth' });
           }}
-          className="bottom-4 md:bottom-10 absolute left-1/2 -translate-x-1/2 animate-bounce"
+          className="bottom-12 md:bottom-10 absolute left-1/2 -translate-x-1/2 animate-bounce"
         />
 
         </div>
